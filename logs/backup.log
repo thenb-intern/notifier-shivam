@@ -1,0 +1,126 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240614_053001-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-14 05:30:04.062229
+Config  : ./shivam.nbnext.in/private/backups/20240614_053001-shivam_nbnext_in-site_config_backup.json 94.0B
+Database: ./shivam.nbnext.in/private/backups/20240614_053001-shivam_nbnext_in-database.sql.gz         795.0KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240614_113002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-14 11:30:05.173772
+Config  : ./shivam.nbnext.in/private/backups/20240614_113002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240614_113002-shivam_nbnext_in-database.sql.gz         802.5KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240614_173001-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-14 17:30:04.460378
+Config  : ./shivam.nbnext.in/private/backups/20240614_173001-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240614_173001-shivam_nbnext_in-database.sql.gz         824.9KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240614_233002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-14 23:30:06.719226
+Config  : ./shivam.nbnext.in/private/backups/20240614_233002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240614_233002-shivam_nbnext_in-database.sql.gz         831.9KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240615_053002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-15 05:30:04.854428
+Config  : ./shivam.nbnext.in/private/backups/20240615_053002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240615_053002-shivam_nbnext_in-database.sql.gz         843.0KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240615_113002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-15 11:30:04.919689
+Config  : ./shivam.nbnext.in/private/backups/20240615_113002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240615_113002-shivam_nbnext_in-database.sql.gz         860.7KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240615_173002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-15 17:30:05.632428
+Config  : ./shivam.nbnext.in/private/backups/20240615_173002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240615_173002-shivam_nbnext_in-database.sql.gz         883.0KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240615_233002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-15 23:30:05.297169
+Config  : ./shivam.nbnext.in/private/backups/20240615_233002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240615_233002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240616_053002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-16 05:30:04.580829
+Config  : ./shivam.nbnext.in/private/backups/20240616_053002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240616_053002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240616_113002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-16 11:30:05.751020
+Config  : ./shivam.nbnext.in/private/backups/20240616_113002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240616_113002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240616_173002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-16 17:30:05.030905
+Config  : ./shivam.nbnext.in/private/backups/20240616_173002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240616_173002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240616_233001-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-16 23:30:04.211984
+Config  : ./shivam.nbnext.in/private/backups/20240616_233001-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240616_233001-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240617_053002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-17 05:30:04.382592
+Config  : ./shivam.nbnext.in/private/backups/20240617_053002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240617_053002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240617_113002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-17 11:30:05.202003
+Config  : ./shivam.nbnext.in/private/backups/20240617_113002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240617_113002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240617_173002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-17 17:30:04.846809
+Config  : ./shivam.nbnext.in/private/backups/20240617_173002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240617_173002-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240617_233001-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-17 23:30:04.051059
+Config  : ./shivam.nbnext.in/private/backups/20240617_233001-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240617_233001-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240618_053001-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-18 05:30:04.464628
+Config  : ./shivam.nbnext.in/private/backups/20240618_053001-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240618_053001-shivam_nbnext_in-database.sql.gz         884.1KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240618_113002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-18 11:30:05.575021
+Config  : ./shivam.nbnext.in/private/backups/20240618_113002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240618_113002-shivam_nbnext_in-database.sql.gz         895.9KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240618_173002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-18 17:30:05.465875
+Config  : ./shivam.nbnext.in/private/backups/20240618_173002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240618_173002-shivam_nbnext_in-database.sql.gz         903.5KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240618_233002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-18 23:30:05.033277
+Config  : ./shivam.nbnext.in/private/backups/20240618_233002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240618_233002-shivam_nbnext_in-database.sql.gz         903.5KiB
+Backup for Site shivam.nbnext.in has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ce45260e25ed9fde --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ce45260e25ed9fde | /usr/bin/gzip >> ./shivam.nbnext.in/private/backups/20240619_053002-shivam_nbnext_in-database.sql.gz
+
+Backup Summary for shivam.nbnext.in at 2024-06-19 05:30:04.407049
+Config  : ./shivam.nbnext.in/private/backups/20240619_053002-shivam_nbnext_in-site_config_backup.json 116.0B
+Database: ./shivam.nbnext.in/private/backups/20240619_053002-shivam_nbnext_in-database.sql.gz         903.5KiB
+Backup for Site shivam.nbnext.in has been successfully completed

@@ -1,0 +1,6 @@
+frappe
+erpnext
+india_compliance
+sms_applications
+hrms
+payments

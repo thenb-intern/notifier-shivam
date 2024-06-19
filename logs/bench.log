@@ -1,0 +1,402 @@
+2024-06-13 20:59:51,695 DEBUG cd thenb-bench && python3 -m venv env
+2024-06-13 20:59:56,790 DEBUG cd thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-06-13 20:59:59,856 DEBUG cd thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet wheel
+2024-06-13 21:00:01,759 LOG Getting frappe
+2024-06-13 21:00:01,759 DEBUG cd thenb-bench/apps && git clone https://github.com/frappe/frappe --branch version-15 --depth 1 --origin upstream
+2024-06-13 21:00:05,312 LOG Installing frappe
+2024-06-13 21:00:05,313 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/frappe 
+2024-06-13 21:01:19,386 DEBUG cd /home/ubuntu/thenb-bench/apps/frappe && yarn install --check-files
+2024-06-13 21:02:00,225 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:02:00,600 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:02:00,601 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:02:00,601 DEBUG cd thenb-bench && bench build
+2024-06-13 21:02:00,811 INFO /home/ubuntu/env/bin/bench build
+2024-06-13 21:02:38,071 LOG setting up backups
+2024-06-13 21:02:38,089 LOG backups were set up
+2024-06-13 21:02:38,089 INFO Bench thenb-bench initialized
+2024-06-13 21:02:38,368 INFO /home/ubuntu/env/bin/bench get-app payments https://github.com/frappe/payments --branch version-15 --resolve-deps
+2024-06-13 21:02:38,982 LOG Getting payments
+2024-06-13 21:02:38,983 DEBUG cd ./apps && git clone https://github.com/frappe/payments --branch version-15 --depth 1 --origin upstream
+2024-06-13 21:02:39,898 LOG Installing payments
+2024-06-13 21:02:39,898 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/payments 
+2024-06-13 21:02:48,176 DEBUG bench build --app payments
+2024-06-13 21:02:48,336 INFO /home/ubuntu/env/bin/bench build --app payments
+2024-06-13 21:02:51,531 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:02:51,855 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:02:51,855 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:02:52,065 INFO /home/ubuntu/env/bin/bench get-app erpnext https://github.com/frappe/erpnext --branch version-15 --resolve-deps
+2024-06-13 21:02:52,533 LOG Getting erpnext
+2024-06-13 21:02:52,533 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext --branch version-15 --depth 1 --origin upstream
+2024-06-13 21:02:57,073 LOG Installing erpnext
+2024-06-13 21:02:57,074 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/erpnext 
+2024-06-13 21:03:18,782 DEBUG cd /home/ubuntu/thenb-bench/apps/erpnext && yarn install --check-files
+2024-06-13 21:03:20,755 DEBUG bench build --app erpnext
+2024-06-13 21:03:20,920 INFO /home/ubuntu/env/bin/bench build --app erpnext
+2024-06-13 21:03:26,166 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:03:26,492 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:03:26,492 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:03:28,732 INFO /home/ubuntu/env/bin/bench get-app payments https://github.com/frappe/payments --branch version-15 --resolve-deps
+2024-06-13 21:03:29,287 WARNING /home/ubuntu/env/bin/bench get-app payments https://github.com/frappe/payments --branch version-15 --resolve-deps executed with exit code 1
+2024-06-13 21:03:29,511 INFO /home/ubuntu/env/bin/bench get-app erpnext https://github.com/frappe/erpnext --branch version-15 --resolve-deps
+2024-06-13 21:03:29,986 WARNING /home/ubuntu/env/bin/bench get-app erpnext https://github.com/frappe/erpnext --branch version-15 --resolve-deps executed with exit code 1
+2024-06-13 21:03:30,215 INFO /home/ubuntu/env/bin/bench get-app hrms https://github.com/frappe/hrms --branch version-15
+2024-06-13 21:03:30,230 LOG Getting hrms
+2024-06-13 21:03:30,230 DEBUG cd ./apps && git clone https://github.com/frappe/hrms --branch version-15 --depth 1 --origin upstream
+2024-06-13 21:03:32,224 LOG Installing hrms
+2024-06-13 21:03:32,225 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/hrms 
+2024-06-13 21:03:36,541 DEBUG cd /home/ubuntu/thenb-bench/apps/hrms && yarn install --check-files
+2024-06-13 21:04:52,493 INFO /usr/local/bin/bench new-site --admin-password admin --mariadb-root-username root --mariadb-root-password root shivam.nbnext.in
+2024-06-13 21:05:08,290 DEBUG bench build --app hrms
+2024-06-13 21:05:08,514 INFO /home/ubuntu/env/bin/bench build --app hrms
+2024-06-13 21:05:54,747 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:05:55,098 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:05:55,098 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:05:55,309 INFO /home/ubuntu/env/bin/bench get-app quotation_comparison https://github.com/efeone/quotation_comparison.git --branch develop
+2024-06-13 21:05:55,323 LOG Getting quotation_comparison
+2024-06-13 21:05:55,324 DEBUG cd ./apps && git clone https://github.com/efeone/quotation_comparison.git --branch develop --depth 1 --origin upstream
+2024-06-13 21:05:56,215 LOG Installing quotation_comparison
+2024-06-13 21:05:56,216 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/quotation_comparison 
+2024-06-13 21:05:59,042 DEBUG bench build --app quotation_comparison
+2024-06-13 21:05:59,219 INFO /home/ubuntu/env/bin/bench build --app quotation_comparison
+2024-06-13 21:06:02,486 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:06:02,786 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:06:02,786 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:06:02,972 INFO /home/ubuntu/env/bin/bench get-app healthcare --resolve-deps
+2024-06-13 21:06:03,957 WARNING /home/ubuntu/env/bin/bench get-app healthcare --resolve-deps executed with exit code 1
+2024-06-13 21:06:04,186 INFO /home/ubuntu/env/bin/bench get-app india_compliance https://github.com/resilient-tech/india-compliance.git --resolve-deps
+2024-06-13 21:06:05,012 LOG Getting india-compliance
+2024-06-13 21:06:05,012 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2024-06-13 21:06:06,161 LOG Installing india_compliance
+2024-06-13 21:06:06,161 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/india_compliance 
+2024-06-13 21:06:16,683 DEBUG bench build --app india_compliance
+2024-06-13 21:06:16,843 INFO /home/ubuntu/env/bin/bench build --app india_compliance
+2024-06-13 21:06:20,919 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:06:21,222 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:06:21,222 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:06:21,420 INFO /home/ubuntu/env/bin/bench get-app https://github.com/bhavesh95863/whitelabel.git --resolve-deps
+2024-06-13 21:06:21,900 LOG Getting whitelabel
+2024-06-13 21:06:21,900 DEBUG cd ./apps && git clone https://github.com/bhavesh95863/whitelabel.git  --depth 1 --origin upstream
+2024-06-13 21:06:22,766 LOG Installing whitelabel
+2024-06-13 21:06:22,766 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/whitelabel 
+2024-06-13 21:06:28,921 DEBUG bench build --app whitelabel
+2024-06-13 21:06:29,078 INFO /home/ubuntu/env/bin/bench build --app whitelabel
+2024-06-13 21:06:31,972 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:06:32,276 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:06:32,276 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:06:32,474 INFO /home/ubuntu/env/bin/bench get-app gajkesari https://github.com/thenbdev/gajkesari.git --resolve-deps
+2024-06-13 21:06:33,262 LOG Getting gajkesari
+2024-06-13 21:06:33,263 DEBUG cd ./apps && git clone https://github.com/thenbdev/gajkesari.git  --depth 1 --origin upstream
+2024-06-13 21:06:47,139 WARNING cd ./apps && git clone https://github.com/thenbdev/gajkesari.git  --depth 1 --origin upstream executed with exit code 128
+2024-06-13 21:06:47,139 WARNING /home/ubuntu/env/bin/bench get-app gajkesari https://github.com/thenbdev/gajkesari.git --resolve-deps executed with exit code 1
+2024-06-13 21:08:05,088 INFO /usr/local/bin/bench remove-app quotation_comparison
+2024-06-13 21:08:05,282 INFO /usr/local/bin/bench --site all list-apps --format json
+2024-06-13 21:08:06,350 INFO /usr/local/bin/bench --site shivam.nbnext.in list-apps
+2024-06-13 21:08:07,247 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip uninstall -y quotation_comparison
+2024-06-13 21:08:08,168 INFO App moved from apps/quotation_comparison to archived/apps/quotation_comparison-2024-06-13
+2024-06-13 21:08:08,758 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:08:09,119 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:08:09,119 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:08:15,568 INFO /usr/local/bin/bench remove-app whitelabel
+2024-06-13 21:08:15,745 INFO /usr/local/bin/bench --site all list-apps --format json
+2024-06-13 21:08:16,767 INFO /usr/local/bin/bench --site shivam.nbnext.in list-apps
+2024-06-13 21:08:17,618 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip uninstall -y whitelabel
+2024-06-13 21:08:18,474 INFO App moved from apps/whitelabel to archived/apps/whitelabel-2024-06-13
+2024-06-13 21:08:19,052 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:08:19,376 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:08:19,376 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-13 21:10:11,294 INFO /usr/local/bin/bench setup nginx
+2024-06-13 21:10:23,879 INFO /usr/local/bin/bench setup supervisor
+2024-06-13 21:10:24,167 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-06-13 21:10:24,167 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2024-06-13 21:10:33,747 INFO /usr/local/bin/bench restart
+2024-06-13 21:10:34,474 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:10:34,803 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:10:34,804 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-06-13 21:11:05,407 INFO /usr/local/bin/bench stop
+2024-06-13 21:11:34,669 INFO /usr/local/bin/bench start
+2024-06-13 21:11:35,459 INFO /usr/local/bin/bench schedule
+2024-06-13 21:11:35,520 INFO /usr/local/bin/bench worker
+2024-06-13 21:11:35,552 INFO /usr/local/bin/bench watch
+2024-06-13 21:11:35,571 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:12:02,545 INFO /usr/local/bin/bench setup redis
+2024-06-13 21:12:04,770 INFO /usr/local/bin/bench start
+2024-06-13 21:12:05,714 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:12:05,848 INFO /usr/local/bin/bench watch
+2024-06-13 21:12:05,875 INFO /usr/local/bin/bench schedule
+2024-06-13 21:12:05,892 INFO /usr/local/bin/bench worker
+2024-06-13 21:12:28,996 INFO /usr/local/bin/bench start
+2024-06-13 21:12:29,754 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:12:29,908 INFO /usr/local/bin/bench watch
+2024-06-13 21:12:29,937 INFO /usr/local/bin/bench schedule
+2024-06-13 21:12:29,952 INFO /usr/local/bin/bench worker
+2024-06-13 21:12:44,477 INFO /usr/local/bin/bench setup redis
+2024-06-13 21:12:46,118 INFO /usr/local/bin/bench start
+2024-06-13 21:12:46,929 INFO /usr/local/bin/bench schedule
+2024-06-13 21:12:47,001 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:12:47,008 INFO /usr/local/bin/bench worker
+2024-06-13 21:12:47,077 INFO /usr/local/bin/bench watch
+2024-06-13 21:13:07,882 INFO /usr/local/bin/bench setup redis
+2024-06-13 21:15:29,507 INFO /usr/local/bin/bench start
+2024-06-13 21:15:30,365 INFO /usr/local/bin/bench schedule
+2024-06-13 21:15:30,384 INFO /usr/local/bin/bench worker
+2024-06-13 21:15:30,442 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:15:30,452 INFO /usr/local/bin/bench watch
+2024-06-13 21:15:52,737 INFO /usr/local/bin/bench start
+2024-06-13 21:15:53,546 INFO /usr/local/bin/bench watch
+2024-06-13 21:15:53,592 INFO /usr/local/bin/bench worker
+2024-06-13 21:15:53,629 INFO /usr/local/bin/bench schedule
+2024-06-13 21:15:53,631 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:19:48,577 INFO /usr/local/bin/bench setup production ubuntu --yes
+2024-06-13 21:19:48,588 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-06-13 21:20:21,696 DEBUG bench setup role fail2ban
+2024-06-13 21:20:21,860 INFO /usr/local/bin/bench setup role fail2ban
+2024-06-13 21:20:22,931 WARNING /usr/local/bin/bench setup role fail2ban executed with exit code 1
+2024-06-13 21:20:22,962 WARNING bench setup role fail2ban executed with exit code 1
+2024-06-13 21:20:22,962 WARNING /usr/local/bin/bench setup production ubuntu --yes executed with exit code 1
+2024-06-13 21:22:23,234 INFO /usr/local/bin/bench setup production ubuntu --yes
+2024-06-13 21:22:23,244 DEBUG bench setup role fail2ban
+2024-06-13 21:22:23,421 INFO /usr/local/bin/bench setup role fail2ban
+2024-06-13 21:22:24,356 WARNING /usr/local/bin/bench setup role fail2ban executed with exit code 1
+2024-06-13 21:22:24,388 WARNING bench setup role fail2ban executed with exit code 1
+2024-06-13 21:22:24,389 WARNING /usr/local/bin/bench setup production ubuntu --yes executed with exit code 1
+2024-06-13 21:24:07,791 INFO /usr/local/bin/bench setup role fail2ban
+2024-06-13 21:24:07,791 WARNING superuser privileges required for this command
+2024-06-13 21:24:10,807 INFO /usr/local/bin/bench setup role fail2ban
+2024-06-13 21:24:11,686 WARNING /usr/local/bin/bench setup role fail2ban executed with exit code 1
+2024-06-13 21:27:51,832 INFO /usr/local/bin/bench start
+2024-06-13 21:27:52,664 INFO /usr/local/bin/bench schedule
+2024-06-13 21:27:52,666 INFO /usr/local/bin/bench watch
+2024-06-13 21:27:52,684 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:27:52,790 INFO /usr/local/bin/bench worker
+2024-06-13 21:30:29,596 INFO /usr/local/bin/bench setup nginx
+2024-06-13 21:35:23,497 INFO /usr/local/bin/bench start
+2024-06-13 21:35:24,259 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:35:24,359 INFO /usr/local/bin/bench worker
+2024-06-13 21:35:24,386 INFO /usr/local/bin/bench watch
+2024-06-13 21:35:24,404 INFO /usr/local/bin/bench schedule
+2024-06-13 21:38:33,332 INFO /usr/local/bin/bench install-app erpnext
+2024-06-13 21:38:50,000 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app erpnext
+2024-06-13 21:39:19,700 INFO /usr/local/bin/bench --site shivam.nbnext.in reinstall
+2024-06-13 21:40:46,930 INFO /usr/local/bin/bench install-app erpnext
+2024-06-13 21:40:58,477 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app erpnext
+2024-06-13 21:43:19,879 INFO /usr/local/bin/bench start
+2024-06-13 21:43:20,684 INFO /usr/local/bin/bench watch
+2024-06-13 21:43:20,708 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:43:20,741 INFO /usr/local/bin/bench worker
+2024-06-13 21:43:20,774 INFO /usr/local/bin/bench schedule
+2024-06-13 21:43:43,718 INFO /usr/local/bin/bench restart
+2024-06-13 21:43:44,339 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-13 21:43:44,663 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-13 21:43:44,663 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-06-13 21:44:07,535 INFO /usr/local/bin/bench start
+2024-06-13 21:44:08,364 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:44:08,418 INFO /usr/local/bin/bench worker
+2024-06-13 21:44:08,453 INFO /usr/local/bin/bench schedule
+2024-06-13 21:44:08,459 INFO /usr/local/bin/bench watch
+2024-06-13 21:45:19,352 INFO /usr/local/bin/bench start
+2024-06-13 21:45:20,078 INFO /usr/local/bin/bench serve --port 8000
+2024-06-13 21:45:20,146 INFO /usr/local/bin/bench watch
+2024-06-13 21:45:20,192 INFO /usr/local/bin/bench worker
+2024-06-13 21:45:20,248 INFO /usr/local/bin/bench schedule
+2024-06-14 00:00:01,303 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-14 04:53:33,594 INFO /usr/local/bin/bench start
+2024-06-14 04:53:34,437 INFO /usr/local/bin/bench worker
+2024-06-14 04:53:34,476 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 04:53:34,499 INFO /usr/local/bin/bench watch
+2024-06-14 04:53:34,508 INFO /usr/local/bin/bench schedule
+2024-06-14 05:03:31,594 INFO /usr/local/bin/bench --site shivam.nbnext.in clear-cache
+2024-06-14 05:03:47,002 INFO /usr/local/bin/bench setup requirements --dev
+2024-06-14 05:03:48,132 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=18.10.1 pyngrok~=6.0.0 unittest-xml-reporting~=3.2.0 watchdog~=3.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.2.2 
+2024-06-14 05:03:58,892 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade parameterized~=0.8.1 time-machine~=2.10.0 
+2024-06-14 05:04:17,264 INFO /usr/local/bin/bench restart
+2024-06-14 05:04:18,031 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-14 05:04:18,361 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-14 05:04:18,362 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-06-14 05:04:31,007 INFO /usr/local/bin/bench start
+2024-06-14 05:04:31,830 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 05:04:31,856 INFO /usr/local/bin/bench worker
+2024-06-14 05:04:31,916 INFO /usr/local/bin/bench schedule
+2024-06-14 05:04:31,988 INFO /usr/local/bin/bench watch
+2024-06-14 06:00:01,717 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-14 06:01:54,296 INFO /usr/local/bin/bench new-app SMS applications
+2024-06-14 06:01:54,307 WARNING /usr/local/bin/bench new-app SMS applications executed with exit code 2
+2024-06-14 06:02:23,171 INFO /usr/local/bin/bench new-app SMS_applications
+2024-06-14 06:02:23,180 LOG creating new app sms_applications
+2024-06-14 06:04:18,117 LOG Installing sms_applications
+2024-06-14 06:04:18,120 DEBUG cd /home/ubuntu/thenb-bench && /home/ubuntu/thenb-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/thenb-bench/apps/sms_applications 
+2024-06-14 06:04:23,041 DEBUG bench build --app sms_applications
+2024-06-14 06:04:23,223 INFO /usr/local/bin/bench build --app sms_applications
+2024-06-14 06:04:26,585 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-14 06:04:26,913 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-14 06:04:26,913 WARNING restarting supervisor group `frappe:` failed. Use `bench restart` to retry.
+2024-06-14 06:11:38,237 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app sms_applications
+2024-06-14 06:13:02,577 INFO /usr/local/bin/bench --site shivam.nbnext.in list-apps
+2024-06-14 06:13:14,786 INFO /usr/local/bin/bench start
+2024-06-14 06:13:15,608 INFO /usr/local/bin/bench watch
+2024-06-14 06:13:15,659 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 06:13:15,672 INFO /usr/local/bin/bench schedule
+2024-06-14 06:13:15,728 INFO /usr/local/bin/bench worker
+2024-06-14 07:39:49,003 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app events
+2024-06-14 07:41:04,268 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app events
+2024-06-14 07:44:00,368 INFO /usr/local/bin/bench start
+2024-06-14 07:44:01,444 INFO /usr/local/bin/bench watch
+2024-06-14 07:44:01,451 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 07:44:01,468 INFO /usr/local/bin/bench schedule
+2024-06-14 07:44:01,476 INFO /usr/local/bin/bench worker
+2024-06-14 07:59:39,953 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app events
+2024-06-14 07:59:57,253 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app Events
+2024-06-14 08:00:15,738 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app Events
+2024-06-14 08:00:30,701 INFO /usr/local/bin/bench --site shivam.nbnext.in install-app events
+2024-06-14 08:00:55,448 INFO /usr/local/bin/bench start
+2024-06-14 08:00:56,577 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 08:00:56,630 INFO /usr/local/bin/bench watch
+2024-06-14 08:00:56,657 INFO /usr/local/bin/bench worker
+2024-06-14 08:00:56,743 INFO /usr/local/bin/bench schedule
+2024-06-14 08:09:52,824 INFO /usr/local/bin/bench restart
+2024-06-14 08:09:53,589 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe:
+2024-06-14 08:09:53,931 WARNING cd /home/ubuntu/thenb-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-06-14 08:09:53,931 WARNING /usr/local/bin/bench restart executed with exit code 1
+2024-06-14 08:09:58,131 INFO /usr/local/bin/bench start
+2024-06-14 08:09:59,001 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 08:09:59,111 INFO /usr/local/bin/bench schedule
+2024-06-14 08:09:59,126 INFO /usr/local/bin/bench worker
+2024-06-14 08:09:59,258 INFO /usr/local/bin/bench watch
+2024-06-14 10:07:50,977 INFO /usr/local/bin/bench start
+2024-06-14 10:07:51,699 INFO /usr/local/bin/bench watch
+2024-06-14 10:07:51,958 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 10:07:51,986 INFO /usr/local/bin/bench schedule
+2024-06-14 10:07:51,990 INFO /usr/local/bin/bench worker
+2024-06-14 11:00:49,896 INFO /usr/local/bin/bench start
+2024-06-14 11:00:50,892 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 11:00:50,947 INFO /usr/local/bin/bench schedule
+2024-06-14 11:00:50,975 INFO /usr/local/bin/bench worker
+2024-06-14 11:00:51,007 INFO /usr/local/bin/bench watch
+2024-06-14 11:39:31,669 INFO /usr/local/bin/bench start
+2024-06-14 11:39:32,625 INFO /usr/local/bin/bench serve --port 8000
+2024-06-14 11:39:32,714 INFO /usr/local/bin/bench watch
+2024-06-14 11:39:32,735 INFO /usr/local/bin/bench schedule
+2024-06-14 11:39:32,786 INFO /usr/local/bin/bench worker
+2024-06-14 12:00:01,352 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-14 14:03:50,880 INFO /usr/local/bin/bench worker --queue short,default
+2024-06-14 14:03:50,880 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-06-14 14:03:50,882 INFO /usr/local/bin/bench schedule
+2024-06-14 18:00:01,937 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-15 00:00:02,288 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-15 04:34:53,613 INFO /usr/local/bin/bench start
+2024-06-15 04:34:54,625 INFO /usr/local/bin/bench schedule
+2024-06-15 04:34:54,629 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:34:54,663 INFO /usr/local/bin/bench worker
+2024-06-15 04:34:54,673 INFO /usr/local/bin/bench watch
+2024-06-15 04:35:30,038 INFO /usr/local/bin/bench start
+2024-06-15 04:35:30,951 INFO /usr/local/bin/bench worker
+2024-06-15 04:35:30,960 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:35:31,140 INFO /usr/local/bin/bench schedule
+2024-06-15 04:35:31,202 INFO /usr/local/bin/bench watch
+2024-06-15 04:35:44,222 INFO /usr/local/bin/bench start
+2024-06-15 04:35:45,093 INFO /usr/local/bin/bench watch
+2024-06-15 04:35:45,094 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:35:45,141 INFO /usr/local/bin/bench schedule
+2024-06-15 04:35:45,159 INFO /usr/local/bin/bench worker
+2024-06-15 04:36:36,020 INFO /usr/local/bin/bench start
+2024-06-15 04:36:37,099 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:36:37,346 INFO /usr/local/bin/bench schedule
+2024-06-15 04:36:37,405 INFO /usr/local/bin/bench worker
+2024-06-15 04:36:37,450 INFO /usr/local/bin/bench watch
+2024-06-15 04:38:02,931 INFO /usr/local/bin/bench build
+2024-06-15 04:45:45,127 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-06-15 04:45:45,127 INFO /usr/local/bin/bench worker --queue short,default
+2024-06-15 04:45:45,128 INFO /usr/local/bin/bench schedule
+2024-06-15 04:50:24,293 INFO /usr/local/bin/bench build
+2024-06-15 04:52:38,629 INFO /usr/local/bin/bench start
+2024-06-15 04:52:39,327 INFO /usr/local/bin/bench watch
+2024-06-15 04:52:39,547 INFO /usr/local/bin/bench worker
+2024-06-15 04:52:39,564 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:52:39,630 INFO /usr/local/bin/bench schedule
+2024-06-15 04:53:06,551 INFO /usr/local/bin/bench start
+2024-06-15 04:53:07,430 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:53:07,432 INFO /usr/local/bin/bench schedule
+2024-06-15 04:53:07,481 INFO /usr/local/bin/bench watch
+2024-06-15 04:53:07,519 INFO /usr/local/bin/bench worker
+2024-06-15 04:53:58,623 INFO /usr/local/bin/bench start
+2024-06-15 04:53:59,504 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:53:59,517 INFO /usr/local/bin/bench worker
+2024-06-15 04:53:59,658 INFO /usr/local/bin/bench watch
+2024-06-15 04:53:59,670 INFO /usr/local/bin/bench schedule
+2024-06-15 04:54:11,900 INFO /usr/local/bin/bench schedule
+2024-06-15 04:54:12,042 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-06-15 04:54:12,059 INFO /usr/local/bin/bench worker --queue short,default
+2024-06-15 04:56:09,657 INFO /usr/local/bin/bench worker --queue short,default
+2024-06-15 04:56:09,658 INFO /usr/local/bin/bench schedule
+2024-06-15 04:56:09,658 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-06-15 04:56:23,598 INFO /usr/local/bin/bench start
+2024-06-15 04:56:24,553 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:56:24,614 INFO /usr/local/bin/bench worker
+2024-06-15 04:56:24,679 INFO /usr/local/bin/bench watch
+2024-06-15 04:56:24,760 INFO /usr/local/bin/bench schedule
+2024-06-15 04:58:05,959 INFO /usr/local/bin/bench start
+2024-06-15 04:58:07,085 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 04:58:07,135 INFO /usr/local/bin/bench watch
+2024-06-15 04:58:07,142 INFO /usr/local/bin/bench schedule
+2024-06-15 04:58:07,157 INFO /usr/local/bin/bench worker
+2024-06-15 05:05:05,961 INFO /usr/local/bin/bench start
+2024-06-15 05:05:07,010 INFO /usr/local/bin/bench watch
+2024-06-15 05:05:07,164 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 05:05:07,203 INFO /usr/local/bin/bench schedule
+2024-06-15 05:05:07,245 INFO /usr/local/bin/bench worker
+2024-06-15 06:00:01,487 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-15 07:08:41,145 INFO /usr/local/bin/bench start
+2024-06-15 07:08:42,217 INFO /usr/local/bin/bench serve --port 8000
+2024-06-15 07:08:42,268 INFO /usr/local/bin/bench worker
+2024-06-15 07:08:42,311 INFO /usr/local/bin/bench schedule
+2024-06-15 07:08:42,318 INFO /usr/local/bin/bench watch
+2024-06-15 12:00:02,081 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-15 18:00:02,270 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-16 00:00:01,785 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-16 06:00:02,106 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-16 12:00:01,670 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-16 18:00:01,545 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-17 00:00:01,711 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-17 06:00:01,897 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-17 12:00:01,643 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-17 18:00:01,301 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-18 00:00:01,564 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-18 04:00:11,548 INFO /usr/local/bin/bench start
+2024-06-18 04:00:12,972 INFO /usr/local/bin/bench serve --port 8000
+2024-06-18 04:00:13,012 INFO /usr/local/bin/bench worker
+2024-06-18 04:00:13,030 INFO /usr/local/bin/bench watch
+2024-06-18 04:00:13,046 INFO /usr/local/bin/bench schedule
+2024-06-18 06:00:02,168 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-18 06:59:44,806 INFO /usr/local/bin/bench restart
+2024-06-18 06:59:45,931 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart thenb-bench-web:
+2024-06-18 06:59:47,397 DEBUG cd /home/ubuntu/thenb-bench && sudo supervisorctl restart thenb-bench-workers:
+2024-06-18 06:59:48,229 INFO /usr/local/bin/bench schedule
+2024-06-18 06:59:48,394 INFO /usr/local/bin/bench worker --queue short,default
+2024-06-18 06:59:48,509 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-06-18 06:59:52,130 INFO /usr/local/bin/bench start
+2024-06-18 06:59:53,112 INFO /usr/local/bin/bench worker
+2024-06-18 06:59:53,158 INFO /usr/local/bin/bench schedule
+2024-06-18 06:59:53,230 INFO /usr/local/bin/bench watch
+2024-06-18 06:59:53,249 INFO /usr/local/bin/bench serve --port 8000
+2024-06-18 06:59:57,621 INFO /usr/local/bin/bench start
+2024-06-18 06:59:58,489 INFO /usr/local/bin/bench serve --port 8000
+2024-06-18 06:59:58,525 INFO /usr/local/bin/bench watch
+2024-06-18 06:59:58,565 INFO /usr/local/bin/bench schedule
+2024-06-18 06:59:58,582 INFO /usr/local/bin/bench worker
+2024-06-18 07:01:05,299 INFO /usr/local/bin/bench start
+2024-06-18 07:01:06,311 INFO /usr/local/bin/bench serve --port 8000
+2024-06-18 07:01:06,316 INFO /usr/local/bin/bench watch
+2024-06-18 07:01:06,330 INFO /usr/local/bin/bench schedule
+2024-06-18 07:01:06,473 INFO /usr/local/bin/bench worker
+2024-06-18 11:14:05,851 INFO /usr/local/bin/bench start
+2024-06-18 11:14:07,029 INFO /usr/local/bin/bench serve --port 8000
+2024-06-18 11:14:07,212 INFO /usr/local/bin/bench watch
+2024-06-18 11:14:07,229 INFO /usr/local/bin/bench worker
+2024-06-18 11:14:07,261 INFO /usr/local/bin/bench schedule
+2024-06-18 12:00:01,618 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-18 18:00:01,967 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-19 00:00:01,586 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-19 04:21:09,659 INFO /usr/local/bin/bench start
+2024-06-19 04:21:11,130 INFO /usr/local/bin/bench schedule
+2024-06-19 04:21:11,166 INFO /usr/local/bin/bench serve --port 8000
+2024-06-19 04:21:11,262 INFO /usr/local/bin/bench worker
+2024-06-19 04:21:11,265 INFO /usr/local/bin/bench watch

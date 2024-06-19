@@ -1,0 +1,130 @@
+[2024-06-14 14:03:54 +0000] [828] [INFO] Starting gunicorn 22.0.0
+[2024-06-14 14:03:54 +0000] [828] [INFO] Listening at: http://127.0.0.1:8000 (828)
+[2024-06-14 14:03:54 +0000] [828] [INFO] Using worker: sync
+[2024-06-14 14:03:54 +0000] [1463] [INFO] Booting worker with pid: 1463
+[2024-06-14 14:03:54 +0000] [1464] [INFO] Booting worker with pid: 1464
+[2024-06-14 14:03:54 +0000] [1465] [INFO] Booting worker with pid: 1465
+[2024-06-14 14:03:54 +0000] [1466] [INFO] Booting worker with pid: 1466
+[2024-06-14 14:03:54 +0000] [1467] [INFO] Booting worker with pid: 1467
+  File "/home/ubuntu/thenb-bench/env/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 202, in run
+    self.manage_workers()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 571, in manage_workers
+    self.spawn_workers()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
+    self.spawn_worker()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 142, in init_process
+    self.run()
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 126, in run
+    self.run_for_one(timeout)
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 70, in run_for_one
+    self.accept(listener)
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 32, in accept
+    self.handle(listener, client, addr)
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/app.py", line 79, in application
+    app(environ, start_response),
+  File "/home/ubuntu/thenb-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 190, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/app.py", line 123, in application
+    response = get_response()
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/website/serve.py", line 19, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/website/path_resolver.py", line 69, in resolve
+    if renderer_instance.can_render():
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/website/page_renderers/print_page.py", line 14, in can_render
+    if frappe.db.exists("DocType", parts[0], True) and frappe.db.exists(parts[0], parts[1], True):
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/database/database.py", line 1130, in exists
+    return self.get_value(dt, dn, ignore=True, cache=cache, order_by=None)
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/database/database.py", line 519, in get_value
+    result = self.get_values(
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/database/database.py", line 623, in get_values
+    out = self._get_values_from_table(
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/database/database.py", line 896, in _get_values_from_table
+    return query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/query_builder/utils.py", line 87, in execute_query
+    result = frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/ubuntu/thenb-bench/apps/frappe/frappe/database/database.py", line 262, in sql
+    traceback.print_stack()
+[2024-06-15 04:42:50 +0000] [828] [CRITICAL] WORKER TIMEOUT (pid:1464)
+[2024-06-15 04:43:01 +0000] [828] [ERROR] Worker (pid:1464) was sent SIGKILL! Perhaps out of memory?
+[2024-06-15 04:43:01 +0000] [10743] [INFO] Booting worker with pid: 10743
+[2024-06-15 04:44:05 +0000] [828] [INFO] Handling signal: term
+[2024-06-15 04:44:05 +0000] [1463] [INFO] Worker exiting (pid: 1463)
+[2024-06-15 04:44:05 +0000] [1467] [INFO] Worker exiting (pid: 1467)
+[2024-06-15 04:44:05 +0000] [10743] [INFO] Worker exiting (pid: 10743)
+[2024-06-15 04:44:05 +0000] [1465] [INFO] Worker exiting (pid: 1465)
+[2024-06-15 04:44:05 +0000] [1466] [INFO] Worker exiting (pid: 1466)
+[2024-06-15 04:44:06 +0000] [828] [INFO] Shutting down: Master
+[2024-06-15 04:45:50 +0000] [820] [INFO] Starting gunicorn 22.0.0
+[2024-06-15 04:45:50 +0000] [820] [INFO] Listening at: http://127.0.0.1:8000 (820)
+[2024-06-15 04:45:50 +0000] [820] [INFO] Using worker: sync
+[2024-06-15 04:45:50 +0000] [1472] [INFO] Booting worker with pid: 1472
+[2024-06-15 04:45:50 +0000] [1473] [INFO] Booting worker with pid: 1473
+[2024-06-15 04:45:50 +0000] [1474] [INFO] Booting worker with pid: 1474
+[2024-06-15 04:45:50 +0000] [1475] [INFO] Booting worker with pid: 1475
+[2024-06-15 04:45:50 +0000] [1476] [INFO] Booting worker with pid: 1476
+[2024-06-15 04:52:58 +0000] [820] [INFO] Handling signal: term
+[2024-06-15 04:52:58 +0000] [1472] [INFO] Worker exiting (pid: 1472)
+[2024-06-15 04:52:58 +0000] [1474] [INFO] Worker exiting (pid: 1474)
+[2024-06-15 04:52:58 +0000] [1475] [INFO] Worker exiting (pid: 1475)
+[2024-06-15 04:52:58 +0000] [1476] [INFO] Worker exiting (pid: 1476)
+[2024-06-15 04:52:58 +0000] [1473] [INFO] Worker exiting (pid: 1473)
+[2024-06-15 04:52:58 +0000] [820] [INFO] Shutting down: Master
+[2024-06-15 04:54:13 +0000] [3999] [INFO] Starting gunicorn 22.0.0
+[2024-06-15 04:54:13 +0000] [3999] [INFO] Listening at: http://127.0.0.1:8000 (3999)
+[2024-06-15 04:54:13 +0000] [3999] [INFO] Using worker: sync
+[2024-06-15 04:54:13 +0000] [4057] [INFO] Booting worker with pid: 4057
+[2024-06-15 04:54:13 +0000] [4063] [INFO] Booting worker with pid: 4063
+[2024-06-15 04:54:14 +0000] [4064] [INFO] Booting worker with pid: 4064
+[2024-06-15 04:54:14 +0000] [4065] [INFO] Booting worker with pid: 4065
+[2024-06-15 04:54:14 +0000] [4066] [INFO] Booting worker with pid: 4066
+[2024-06-15 04:54:42 +0000] [3999] [INFO] Handling signal: term
+[2024-06-15 04:54:42 +0000] [4057] [INFO] Worker exiting (pid: 4057)
+[2024-06-15 04:54:42 +0000] [4063] [INFO] Worker exiting (pid: 4063)
+[2024-06-15 04:54:42 +0000] [4065] [INFO] Worker exiting (pid: 4065)
+[2024-06-15 04:54:42 +0000] [4064] [INFO] Worker exiting (pid: 4064)
+[2024-06-15 04:54:42 +0000] [4066] [INFO] Worker exiting (pid: 4066)
+[2024-06-15 04:54:42 +0000] [3999] [INFO] Shutting down: Master
+[2024-06-15 04:56:16 +0000] [836] [INFO] Starting gunicorn 22.0.0
+[2024-06-15 04:56:16 +0000] [836] [INFO] Listening at: http://127.0.0.1:8000 (836)
+[2024-06-15 04:56:16 +0000] [836] [INFO] Using worker: sync
+[2024-06-15 04:56:16 +0000] [1854] [INFO] Booting worker with pid: 1854
+[2024-06-15 04:56:16 +0000] [1855] [INFO] Booting worker with pid: 1855
+[2024-06-15 04:56:17 +0000] [1856] [INFO] Booting worker with pid: 1856
+[2024-06-15 04:56:17 +0000] [1857] [INFO] Booting worker with pid: 1857
+[2024-06-15 04:56:17 +0000] [1858] [INFO] Booting worker with pid: 1858
+[2024-06-15 04:56:19 +0000] [836] [INFO] Handling signal: term
+[2024-06-15 04:56:19 +0000] [1854] [INFO] Worker exiting (pid: 1854)
+[2024-06-15 04:56:19 +0000] [1855] [INFO] Worker exiting (pid: 1855)
+[2024-06-15 04:56:19 +0000] [1857] [INFO] Worker exiting (pid: 1857)
+[2024-06-15 04:56:19 +0000] [1856] [INFO] Worker exiting (pid: 1856)
+[2024-06-15 04:56:19 +0000] [1858] [INFO] Worker exiting (pid: 1858)
+[2024-06-15 04:56:19 +0000] [836] [INFO] Shutting down: Master
+[2024-06-18 06:59:47 +0000] [171808] [INFO] Starting gunicorn 22.0.0
+[2024-06-18 06:59:47 +0000] [171808] [INFO] Listening at: http://127.0.0.1:8000 (171808)
+[2024-06-18 06:59:47 +0000] [171808] [INFO] Using worker: sync
+[2024-06-18 06:59:47 +0000] [171841] [INFO] Booting worker with pid: 171841
+[2024-06-18 06:59:47 +0000] [171843] [INFO] Booting worker with pid: 171843
+[2024-06-18 06:59:48 +0000] [171846] [INFO] Booting worker with pid: 171846
+[2024-06-18 06:59:48 +0000] [171847] [INFO] Booting worker with pid: 171847
+[2024-06-18 06:59:48 +0000] [171848] [INFO] Booting worker with pid: 171848
+[2024-06-18 07:00:57 +0000] [171808] [INFO] Handling signal: term
+[2024-06-18 07:00:57 +0000] [171841] [INFO] Worker exiting (pid: 171841)
+[2024-06-18 07:00:57 +0000] [171843] [INFO] Worker exiting (pid: 171843)
+[2024-06-18 07:00:57 +0000] [171848] [INFO] Worker exiting (pid: 171848)
+[2024-06-18 07:00:57 +0000] [171846] [INFO] Worker exiting (pid: 171846)
+[2024-06-18 07:00:57 +0000] [171847] [INFO] Worker exiting (pid: 171847)
+[2024-06-18 07:00:57 +0000] [171808] [INFO] Shutting down: Master

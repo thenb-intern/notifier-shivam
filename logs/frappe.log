@@ -1,0 +1,87 @@
+2024-06-14 07:33:50,539 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'docs': '{"name":"ekiq8an14t","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":0,"dealer_name":"dealer2","doctype":"Events","participants":[{"name":"ekiqijircd","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":1,"participants_name":"shivam","phone_number":"+91-8789835655","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"},{"name":"ekiq0q94fo","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":2,"participants_name":"mahavir","phone_number":"+91-8757956554","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"}],"__last_sync_on":"2024-06-14T07:33:25.586Z"}', 'method': 'send_sms', 'cmd': 'run_doc_method'}
+2024-06-14 07:34:12,101 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'docs': '{"name":"ekiq8an14t","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":0,"dealer_name":"dealer2","doctype":"Events","participants":[{"name":"ekiqijircd","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":1,"participants_name":"shivam","phone_number":"+91-8789835655","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"},{"name":"ekiq0q94fo","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":2,"participants_name":"mahavir","phone_number":"+91-8757956554","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"}],"__last_sync_on":"2024-06-14T07:33:25.586Z"}', 'method': 'send_sms', 'cmd': 'run_doc_method'}
+2024-06-14 07:36:31,220 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'docs': '{"name":"ekiq8an14t","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":0,"dealer_name":"dealer2","doctype":"Events","participants":[{"name":"ekiqijircd","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":1,"participants_name":"shivam","phone_number":"+91-8789835655","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"},{"name":"ekiq0q94fo","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":2,"participants_name":"mahavir","phone_number":"+91-8757956554","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"}],"__last_sync_on":"2024-06-14T07:36:28.737Z"}', 'method': 'send_sms', 'cmd': 'run_doc_method'}
+2024-06-14 07:36:40,218 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'docs': '{"name":"ekiq8an14t","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":0,"dealer_name":"dealer2","doctype":"Events","participants":[{"name":"ekiqijircd","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":1,"participants_name":"shivam","phone_number":"+91-8789835655","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"},{"name":"ekiq0q94fo","owner":"Administrator","creation":"2024-06-14 12:47:54.620360","modified":"2024-06-14 12:47:54.620360","modified_by":"Administrator","docstatus":0,"idx":2,"participants_name":"mahavir","phone_number":"+91-8757956554","parent":"ekiq8an14t","parentfield":"participants","parenttype":"Events","doctype":"Event_table"}],"__last_sync_on":"2024-06-14T07:36:28.737Z"}', 'method': 'send_sms', 'cmd': 'run_doc_method'}
+2024-06-14 07:56:09,666 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 07:56:29,040 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 07:57:14,603 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 08:08:26,976 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 08:08:37,442 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 08:10:08,493 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 08:13:09,830 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'name': 'ekiq8an14t', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-06-14 09:36:47,448 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-06-14 09:37:27,798 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-06-15 09:08:05,770 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'txt': '', 'doctype': 'Locations', 'ignore_user_permissions': '0', 'reference_doctype': 'Events', 'page_length': '10', 'query': 'sms_applications.sms_applications.doctype.events.events.get_location_with_description', 'filters': '{"is_group":0}', 'cmd': 'frappe.desk.search.search_link'}
+2024-06-15 09:09:41,733 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'txt': '', 'doctype': 'Locations', 'ignore_user_permissions': '0', 'reference_doctype': 'Events', 'page_length': '10', 'query': 'sms_applications.sms_applications.doctype.events.events.get_location_with_description', 'filters': '{"is_group":0}', 'cmd': 'frappe.desk.search.search_link'}
+2024-06-15 09:12:11,217 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'txt': '', 'doctype': 'Locations', 'ignore_user_permissions': '0', 'reference_doctype': 'Events', 'page_length': '10', 'query': 'sms_applications.sms_applications.doctype.events.events.get_location_with_description', 'filters': '{"is_group":0}', 'cmd': 'frappe.desk.search.search_link'}
+2024-06-15 09:12:26,833 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'txt': '', 'doctype': 'Locations', 'ignore_user_permissions': '0', 'reference_doctype': 'Events', 'page_length': '10', 'query': 'sms_applications.sms_applications.doctype.events.events.get_location_with_description', 'filters': '{"is_group":0}', 'cmd': 'frappe.desk.search.search_link'}
+2024-06-15 09:14:37,845 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'txt': '', 'doctype': 'Locations', 'ignore_user_permissions': '0', 'reference_doctype': 'Events', 'page_length': '10', 'filters': '{"is_group":0,"country":"India"}', 'cmd': 'frappe.desk.search.search_link'}
+2024-06-18 05:09:02,324 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"name":"llt4c8nnoq","owner":"Administrator","creation":"2024-06-18 10:35:20.444374","modified":"2024-06-18 10:35:20.444374","modified_by":"Administrator","docstatus":0,"idx":0,"vendor_name":"shivam rathore","doctype":"Vendor","items":[{"name":"llt4e70r6a","owner":"Administrator","creation":"2024-06-18 10:35:20.444374","modified":"2024-06-18 10:35:20.444374","modified_by":"Administrator","docstatus":0,"idx":1,"item_name":"SKU004","price":20000,"parent":"llt4c8nnoq","parentfield":"items","parenttype":"Vendor","doctype":"Item_table","__unsaved":1},{"name":"llt48ad7ob","owner":"Administrator","creation":"2024-06-18 10:35:20.444374","modified":"2024-06-18 10:35:20.444374","modified_by":"Administrator","docstatus":0,"idx":2,"item_name":"SKU003","price":1000,"parent":"llt4c8nnoq","parentfield":"items","parenttype":"Vendor","doctype":"Item_table","__unsaved":1},{"docstatus":0,"doctype":"Item_table","name":"new-item_table-xygyjcqljl","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"llt4c8nnoq","parentfield":"items","parenttype":"Vendor","idx":3,"__unedited":false,"item_name":"SKU005","price":5000}],"__last_sync_on":"2024-06-18T05:05:20.646Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 07:14:52,121 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-tkeuslrvyy","__islocal":1,"__unsaved":1,"owner":"Administrator","items":[{"docstatus":0,"doctype":"Item_table","name":"new-item_table-hvtrmjjkeb","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-tkeuslrvyy","parentfield":"items","parenttype":"Vendor","idx":1,"__unedited":false,"item_name":"SKU010","price":2401}],"vendor_name":"test"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 07:52:58,828 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-srxgmfbxyl","__islocal":1,"__unsaved":1,"owner":"Administrator","phone_number":"+91-8789848685","items":[{"docstatus":0,"doctype":"Item_table","name":"new-item_table-foazvvxmiz","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-srxgmfbxyl","parentfield":"items","parenttype":"Vendor","idx":1,"__unedited":false,"item_name":"SKU001","price":12365},{"docstatus":0,"doctype":"Item_table","name":"new-item_table-oldfnxpjmv","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-srxgmfbxyl","parentfield":"items","parenttype":"Vendor","idx":2,"__unedited":false,"item_name":"SKU002","price":2356},{"docstatus":0,"doctype":"Item_table","name":"new-item_table-yowzqmajga","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-srxgmfbxyl","parentfield":"items","parenttype":"Vendor","idx":3,"__unedited":false,"item_name":"SKU005","price":2401}],"vendor_name":"testing"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 08:06:35,792 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-mwosipesmb","__islocal":1,"__unsaved":1,"owner":"Administrator","phone_number":"+91-7574758965","items":[],"vendor_name":"entry"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 09:57:29,921 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-jcwkxcygdn","__islocal":1,"__unsaved":1,"owner":"Administrator","phone_number":"+91-7895641230","items":[{"docstatus":0,"doctype":"Item_table","name":"new-item_table-usjshijafm","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-jcwkxcygdn","parentfield":"items","parenttype":"Vendor","idx":1,"__unedited":false,"item_name":"SKU010","price":985634}],"vendor_name":"micro"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 10:00:07,239 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-lyzrxofpvm","__islocal":1,"__unsaved":1,"owner":"Administrator","phone_number":"+91-7895641230","items":[{"docstatus":0,"doctype":"Item_table","name":"new-item_table-gzadscdthq","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-lyzrxofpvm","parentfield":"items","parenttype":"Vendor","idx":1,"__unedited":false,"item_name":"SKU010","price":123652}],"vendor_name":"digital28"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 10:02:51,858 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-ttralziyga","__islocal":1,"__unsaved":1,"owner":"Administrator","phone_number":"+91-2314561987","items":[{"docstatus":0,"doctype":"Item_table","name":"new-item_table-okqtkzzkfh","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-ttralziyga","parentfield":"items","parenttype":"Vendor","idx":1,"__unedited":false,"item_name":"SKU009","price":23658}],"vendor_name":"digital24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 10:08:10,622 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Vendor","name":"new-vendor-raquccwqho","__islocal":1,"__unsaved":1,"owner":"Administrator","phone_number":"+91-7894562312","items":[{"docstatus":0,"doctype":"Item_table","name":"new-item_table-evcbzdzwwq","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-vendor-raquccwqho","parentfield":"items","parenttype":"Vendor","idx":1,"__unedited":false,"item_name":"SKU001","price":123652}],"vendor_name":"digital24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-06-18 11:27:47,632 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'event_name': 'ekiq8an14t', 'cmd': 'sms_applications.sms_applications.doctype.events.events.get_event_participants'}
+2024-06-18 11:28:14,471 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'event_name': 'ekiq8an14t', 'participant_name': 'steve', 'participant_email': 'steve@gmail.com', 'participant_phone': '7894561230', 'cmd': 'sms_applications.sms_applications.doctype.events.events.create_event_participant'}
+2024-06-18 11:58:53,289 ERROR frappe New Exception collected in error log
+Site: shivam.nbnext.in
+Form Dict: {'doctype': 'Events', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}

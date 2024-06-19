@@ -1,0 +1,19 @@
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+SocketClosedUnexpectedlyError: Socket closed unexpectedly
+    at Socket.<anonymous> (/home/ubuntu/thenb-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/socket.js:194:118)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+Emitted 'error' event on RedisClient instance at:
+    at RedisSocket.<anonymous> (/home/ubuntu/thenb-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/index.js:412:14)
+    at RedisSocket.emit (node:events:517:28)
+    at RedisSocket._RedisSocket_onSocketError (/home/ubuntu/thenb-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/socket.js:218:10)
+    at Socket.<anonymous> (/home/ubuntu/thenb-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/socket.js:194:107)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+
+Node.js v18.20.3

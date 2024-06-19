@@ -1,0 +1,48 @@
+824:C 14 Jun 2024 14:03:48.131 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+824:C 14 Jun 2024 14:03:48.131 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=824, just started
+824:C 14 Jun 2024 14:03:48.131 # Configuration loaded
+824:M 14 Jun 2024 14:03:48.132 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+824:M 14 Jun 2024 14:03:48.156 * Running mode=standalone, port=13000.
+824:M 14 Jun 2024 14:03:48.156 # Server initialized
+824:M 14 Jun 2024 14:03:48.156 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+824:M 14 Jun 2024 14:03:48.157 * Ready to accept connections
+824:signal-handler (1718426646) Received SIGTERM scheduling shutdown...
+824:M 15 Jun 2024 04:44:06.364 # User requested shutdown...
+824:M 15 Jun 2024 04:44:06.364 * Removing the pid file.
+824:M 15 Jun 2024 04:44:06.365 # Redis is now ready to exit, bye bye...
+817:C 15 Jun 2024 04:45:42.564 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+817:C 15 Jun 2024 04:45:42.564 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=817, just started
+817:C 15 Jun 2024 04:45:42.564 # Configuration loaded
+817:M 15 Jun 2024 04:45:42.572 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+817:M 15 Jun 2024 04:45:42.608 * Running mode=standalone, port=13000.
+817:M 15 Jun 2024 04:45:42.609 # Server initialized
+817:M 15 Jun 2024 04:45:42.609 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+817:M 15 Jun 2024 04:45:42.609 * Ready to accept connections
+817:signal-handler (1718427178) Received SIGTERM scheduling shutdown...
+817:M 15 Jun 2024 04:52:58.642 # User requested shutdown...
+817:M 15 Jun 2024 04:52:58.642 * Removing the pid file.
+817:M 15 Jun 2024 04:52:58.642 # Redis is now ready to exit, bye bye...
+3997:C 15 Jun 2024 04:54:11.334 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3997:C 15 Jun 2024 04:54:11.334 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=3997, just started
+3997:C 15 Jun 2024 04:54:11.334 # Configuration loaded
+3997:M 15 Jun 2024 04:54:11.347 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+3997:M 15 Jun 2024 04:54:11.350 * Running mode=standalone, port=13000.
+3997:M 15 Jun 2024 04:54:11.350 # Server initialized
+3997:M 15 Jun 2024 04:54:11.350 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+3997:M 15 Jun 2024 04:54:11.351 * Ready to accept connections
+3997:signal-handler (1718427282) Received SIGTERM scheduling shutdown...
+3997:M 15 Jun 2024 04:54:42.166 # User requested shutdown...
+3997:M 15 Jun 2024 04:54:42.166 * Removing the pid file.
+3997:M 15 Jun 2024 04:54:42.166 # Redis is now ready to exit, bye bye...
+824:C 15 Jun 2024 04:56:04.152 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+824:C 15 Jun 2024 04:56:04.152 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=824, just started
+824:C 15 Jun 2024 04:56:04.152 # Configuration loaded
+824:M 15 Jun 2024 04:56:04.171 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+824:M 15 Jun 2024 04:56:04.195 * Running mode=standalone, port=13000.
+824:M 15 Jun 2024 04:56:04.195 # Server initialized
+824:M 15 Jun 2024 04:56:04.195 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+824:M 15 Jun 2024 04:56:04.198 * Ready to accept connections
+824:signal-handler (1718427379) Received SIGTERM scheduling shutdown...
+824:M 15 Jun 2024 04:56:19.304 # User requested shutdown...
+824:M 15 Jun 2024 04:56:19.304 * Removing the pid file.
+824:M 15 Jun 2024 04:56:19.304 # Redis is now ready to exit, bye bye...
