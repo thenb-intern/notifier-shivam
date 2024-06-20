@@ -85,3 +85,6 @@ Form Dict: {'event_name': 'ekiq8an14t', 'participant_name': 'steve', 'participan
 2024-06-18 11:58:53,289 ERROR frappe New Exception collected in error log
 Site: shivam.nbnext.in
 Form Dict: {'doctype': 'Events', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-06-19 06:51:48,909 ERROR frappe Error while inserting deferred Error Log record: Error Log i01hv4tmhi: 'Title' (Module import failed for Participants, the DocType you're trying to open might be deleted. Error: No module named 'frappe.core.doctype.participants') will get truncated, as max characters allowed is 140
+Site: shivam.nbnext.in
+Form Dict: {}

@@ -526,3 +526,25 @@ ALTER TABLE `tabVendor` ADD COLUMN `vendor_name` varchar(140)
 ALTER TABLE `tabVendor` ADD COLUMN `phone_number` varchar(140)
 2024-06-18 07:27:07,665 WARNING database DDL Query made to DB:
 ALTER TABLE `tabVendor` MODIFY `phone_number` varchar(140) default '+91-'
+2024-06-19 09:43:17,282 WARNING database DDL Query made to DB:
+create table `tabevent_details` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-06-19 09:47:44,408 WARNING database DDL Query made to DB:
+ALTER TABLE `tabevent_details` ADD COLUMN `event_name` varchar(140), ADD COLUMN `location` varchar(140)
+2024-06-19 09:48:45,622 WARNING database DDL Query made to DB:
+ALTER TABLE `tabEvents` ADD COLUMN `event_name` varchar(140)

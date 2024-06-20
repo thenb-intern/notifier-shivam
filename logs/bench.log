@@ -400,3 +400,12 @@
 2024-06-19 04:21:11,166 INFO /usr/local/bin/bench serve --port 8000
 2024-06-19 04:21:11,262 INFO /usr/local/bin/bench worker
 2024-06-19 04:21:11,265 INFO /usr/local/bin/bench watch
+2024-06-19 05:54:47,717 INFO /usr/local/bin/bench start
+2024-06-19 05:54:48,826 INFO /usr/local/bin/bench schedule
+2024-06-19 05:54:48,944 INFO /usr/local/bin/bench serve --port 8000
+2024-06-19 05:54:48,997 INFO /usr/local/bin/bench worker
+2024-06-19 05:54:49,005 INFO /usr/local/bin/bench watch
+2024-06-19 06:00:02,262 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-19 12:00:01,381 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-19 18:00:01,629 INFO /home/ubuntu/env/bin/bench --verbose --site all backup
+2024-06-20 00:00:01,736 INFO /home/ubuntu/env/bin/bench --verbose --site all backup

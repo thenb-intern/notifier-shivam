@@ -11227,3 +11227,369 @@ Wrote document file for DocType Vendor at /home/ubuntu/thenb-bench/apps/sms_appl
 2024-06-19 05:42:13,806 Cleaning registries for queue: home-ubuntu-thenb-bench:long
 2024-06-19 05:47:45,732 Worker 8706da3c33cc40cc95131e6182b3bc97 [PID 243178]: warm shut down requested
 2024-06-19 05:47:45,752 Unsubscribing from channel rq:pubsub:8706da3c33cc40cc95131e6182b3bc97
+2024-06-19 05:54:50,843 Worker rq:worker:fb0a3e61568b4a68a2f5a3d68e267f34 started with PID 265602, version 1.15.1
+2024-06-19 05:54:50,844 Subscribing to channel rq:pubsub:fb0a3e61568b4a68a2f5a3d68e267f34
+2024-06-19 05:54:50,860 *** Listening on home-ubuntu-thenb-bench:short, home-ubuntu-thenb-bench:default, home-ubuntu-thenb-bench:long...
+2024-06-19 06:08:20,992 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 06:08:20,995 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 06:08:20,996 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 06:35:21,316 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 06:35:21,319 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 06:35:21,321 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 06:50:57,270 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.bulk_transaction.retry'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.utilities.bulk_transaction.retry)
+2024-06-19 06:50:58,460 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.utilities.bulk_transaction.retry)
+2024-06-19 06:50:58,460 Result is kept for 600 seconds
+2024-06-19 06:50:58,475 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.utils.run_ledger_health_checks'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.utils.run_ledger_health_checks)
+2024-06-19 06:50:59,417 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.utils.run_ledger_health_checks)
+2024-06-19 06:50:59,418 Result is kept for 600 seconds
+2024-06-19 06:50:59,432 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.utils.auto_create_exchange_rate_revaluation_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.utils.auto_create_exchange_rate_revaluation_daily)
+2024-06-19 06:51:00,388 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.utils.auto_create_exchange_rate_revaluation_daily)
+2024-06-19 06:51:00,389 Result is kept for 600 seconds
+2024-06-19 06:51:00,403 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_statement_of_accounts.proces..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email)
+2024-06-19 06:51:01,671 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.process_statement_of_accounts.process_statement_of_accounts.send_auto_email)
+2024-06-19 06:51:01,672 Result is kept for 600 seconds
+2024-06-19 06:51:01,692 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.buying.doctype.supplier_quotation.supplier_quotation...., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status)
+2024-06-19 06:51:02,617 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.buying.doctype.supplier_quotation.supplier_quotation.set_expired_status)
+2024-06-19 06:51:02,617 Result is kept for 600 seconds
+2024-06-19 06:51:02,636 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.selling.doctype.quotation.quotation.set_expired_statu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.selling.doctype.quotation.quotation.set_expired_status)
+2024-06-19 06:51:03,471 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.selling.doctype.quotation.quotation.set_expired_status)
+2024-06-19 06:51:03,471 Result is kept for 600 seconds
+2024-06-19 06:51:03,484 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.email_campaign.email_campaign.set_email_c..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status)
+2024-06-19 06:51:04,422 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.email_campaign.email_campaign.set_email_campaign_status)
+2024-06-19 06:51:04,423 Result is kept for 600 seconds
+2024-06-19 06:51:04,437 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.email_campaign.email_campaign.send_email_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts)
+2024-06-19 06:51:05,405 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.email_campaign.email_campaign.send_email_to_leads_or_contacts)
+2024-06-19 06:51:05,405 Result is kept for 600 seconds
+2024-06-19 06:51:05,419 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.support.doctype.service_level_agreement.service_level..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status)
+2024-06-19 06:51:06,298 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.support.doctype.service_level_agreement.service_level_agreement.check_agreement_status)
+2024-06-19 06:51:06,298 Result is kept for 600 seconds
+2024-06-19 06:51:06,310 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.quality_management.doctype.quality_review.quality_rev..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.quality_management.doctype.quality_review.quality_review.review)
+2024-06-19 06:51:07,164 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.quality_management.doctype.quality_review.quality_review.review)
+2024-06-19 06:51:07,164 Result is kept for 600 seconds
+2024-06-19 06:51:07,175 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.send_project_status_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.send_project_status_email_to_users)
+2024-06-19 06:51:08,037 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.send_project_status_email_to_users)
+2024-06-19 06:51:08,037 Result is kept for 600 seconds
+2024-06-19 06:51:08,049 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.update_project_sales..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.update_project_sales_billing)
+2024-06-19 06:51:08,859 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.update_project_sales_billing)
+2024-06-19 06:51:08,859 Result is kept for 600 seconds
+2024-06-19 06:51:08,870 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.contract.contract.update_status_for_contr..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.contract.contract.update_status_for_contracts)
+2024-06-19 06:51:09,626 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.contract.contract.update_status_for_contracts)
+2024-06-19 06:51:09,626 Result is kept for 600 seconds
+2024-06-19 06:51:09,641 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.assets.doctype.asset.asset.make_post_gl_entry'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.assets.doctype.asset.asset.make_post_gl_entry)
+2024-06-19 06:51:10,596 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.assets.doctype.asset.asset.make_post_gl_entry)
+2024-06-19 06:51:10,596 Result is kept for 600 seconds
+2024-06-19 06:51:10,614 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.assets.doctype.asset.asset.update_maintenance_status'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.assets.doctype.asset.asset.update_maintenance_status)
+2024-06-19 06:51:11,433 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.assets.doctype.asset.asset.update_maintenance_status)
+2024-06-19 06:51:11,433 Result is kept for 600 seconds
+2024-06-19 06:51:11,448 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.setup.doctype.company.company.cache_companies_monthly..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history)
+2024-06-19 06:51:12,372 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history)
+2024-06-19 06:51:12,373 Result is kept for 600 seconds
+2024-06-19 06:51:12,384 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.buying.doctype.supplier_scorecard.supplier_scorecard...., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards)
+2024-06-19 06:51:13,206 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.buying.doctype.supplier_scorecard.supplier_scorecard.refresh_scorecards)
+2024-06-19 06:51:13,206 Result is kept for 600 seconds
+2024-06-19 06:51:13,221 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.serial_no.serial_no.update_maintenance_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status)
+2024-06-19 06:51:14,131 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.stock.doctype.serial_no.serial_no.update_maintenance_status)
+2024-06-19 06:51:14,132 Result is kept for 600 seconds
+2024-06-19 06:51:14,158 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.task.task.set_tasks_as_overdue'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.task.task.set_tasks_as_overdue)
+2024-06-19 06:51:15,028 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.task.task.set_tasks_as_overdue)
+2024-06-19 06:51:15,028 Result is kept for 600 seconds
+2024-06-19 06:51:15,039 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year)
+2024-06-19 06:51:15,755 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_fiscal_year)
+2024-06-19 06:51:15,755 Result is kept for 600 seconds
+2024-06-19 06:51:15,772 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.controllers.accounts_controller.update_invoice_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.controllers.accounts_controller.update_invoice_status)
+2024-06-19 06:51:16,620 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.controllers.accounts_controller.update_invoice_status)
+2024-06-19 06:51:16,620 Result is kept for 600 seconds
+2024-06-19 06:51:16,633 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.opportunity.opportunity.auto_close_opport..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity)
+2024-06-19 06:51:17,416 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.crm.doctype.opportunity.opportunity.auto_close_opportunity)
+2024-06-19 06:51:17,417 Result is kept for 600 seconds
+2024-06-19 06:51:17,428 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.support.doctype.issue.issue.auto_close_tickets'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.support.doctype.issue.issue.auto_close_tickets)
+2024-06-19 06:51:18,280 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.support.doctype.issue.issue.auto_close_tickets)
+2024-06-19 06:51:18,281 Result is kept for 600 seconds
+2024-06-19 06:51:18,292 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.collect_project_stat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.collect_project_status)
+2024-06-19 06:51:19,201 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.collect_project_status)
+2024-06-19 06:51:19,202 Result is kept for 600 seconds
+2024-06-19 06:51:19,220 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.hourly_reminder'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.hourly_reminder)
+2024-06-19 06:51:20,143 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.hourly_reminder)
+2024-06-19 06:51:20,143 Result is kept for 600 seconds
+2024-06-19 06:51:20,156 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.project_status_update_reminder)
+2024-06-19 06:51:20,988 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.projects.doctype.project.project.project_status_update_reminder)
+2024-06-19 06:51:20,989 Result is kept for 600 seconds
+2024-06-19 06:51:21,001 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.erpnext_integrations.doctype.plaid_settings.plaid_set..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization)
+2024-06-19 06:51:21,779 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization)
+2024-06-19 06:51:21,779 Result is kept for 600 seconds
+2024-06-19 06:51:21,793 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.utilities.doctype.video.video.update_youtube_data)
+2024-06-19 06:51:22,663 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.utilities.doctype.video.video.update_youtube_data)
+2024-06-19 06:51:22,664 Result is kept for 600 seconds
+2024-06-19 06:51:22,676 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.reorder_item.reorder_item'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.stock.reorder_item.reorder_item)
+2024-06-19 06:51:23,545 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.stock.reorder_item.reorder_item)
+2024-06-19 06:51:23,546 Result is kept for 600 seconds
+2024-06-19 06:51:23,557 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs)
+2024-06-19 06:51:24,369 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs)
+2024-06-19 06:51:24,369 Result is kept for 600 seconds
+2024-06-19 06:51:24,380 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.process_payment_reconciliation.process_payment_reconciliation.trigger_reconciliation_for_queued_docs)
+2024-06-19 06:51:25,161 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.process_payment_reconciliation.process_payment_reconciliation.trigger_reconciliation_for_queued_docs)
+2024-06-19 06:51:25,161 Result is kept for 600 seconds
+2024-06-19 06:51:25,173 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2024-06-19 06:51:25,956 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::erpnext.manufacturing.doctype.bom_update_log.bom_update_log.resume_bom_cost_update_jobs)
+2024-06-19 06:51:25,956 Result is kept for 600 seconds
+2024-06-19 06:51:25,967 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_re..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed)
+2024-06-19 06:51:27,000 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_repeat_as_completed)
+2024-06-19 06:51:27,001 Result is kept for 600 seconds
+2024-06-19 06:51:27,044 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry)
+2024-06-19 06:51:28,035 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_repeat_entry)
+2024-06-19 06:51:28,035 Result is kept for 600 seconds
+2024-06-19 06:51:28,050 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_contacts.google_contacts.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.google_contacts.google_contacts.sync)
+2024-06-19 06:51:29,279 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.google_contacts.google_contacts.sync)
+2024-06-19 06:51:29,280 Result is kept for 600 seconds
+2024-06-19 06:51:29,293 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.social.doctype.energy_point_settings.energy_point_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points)
+2024-06-19 06:51:30,145 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.social.doctype.energy_point_settings.energy_point_settings.allocate_review_points)
+2024-06-19 06:51:30,146 Result is kept for 600 seconds
+2024-06-19 06:51:30,158 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_daily_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.desk.form.document_follow.send_daily_updates)
+2024-06-19 06:51:31,041 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.desk.form.document_follow.send_daily_updates)
+2024-06-19 06:51:31,041 Result is kept for 600 seconds
+2024-06-19 06:51:31,053 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record)
+2024-06-19 06:51:31,893 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.remove_unverified_record)
+2024-06-19 06:51:31,894 Result is kept for 600 seconds
+2024-06-19 06:51:31,910 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_daily_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.email.doctype.notification.notification.trigger_daily_alerts)
+2024-06-19 06:51:32,703 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.email.doctype.notification.notification.trigger_daily_alerts)
+2024-06-19 06:51:32,703 Result is kept for 600 seconds
+2024-06-19 06:51:32,716 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.sessions.clear_expired_sessions'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.sessions.clear_expired_sessions)
+2024-06-19 06:51:33,566 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.sessions.clear_expired_sessions)
+2024-06-19 06:51:33,566 Result is kept for 600 seconds
+2024-06-19 06:51:33,578 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.doctype.event.event.send_event_digest'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.desk.doctype.event.event.send_event_digest)
+2024-06-19 06:51:34,312 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.desk.doctype.event.event.send_event_digest)
+2024-06-19 06:51:34,312 Result is kept for 600 seconds
+2024-06-19 06:51:34,323 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.notifications.clear_notifications'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.desk.notifications.clear_notifications)
+2024-06-19 06:51:35,078 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.desk.notifications.clear_notifications)
+2024-06-19 06:51:35,078 Result is kept for 600 seconds
+2024-06-19 06:51:35,091 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request)
+2024-06-19 06:51:35,833 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.website.doctype.personal_data_deletion_request.personal_data_deletion_request.process_data_deletion_request)
+2024-06-19 06:51:35,833 Result is kept for 600 seconds
+2024-06-19 06:51:35,851 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.email.doctype.newsletter.newsletter.send_scheduled_email)
+2024-06-19 06:51:36,817 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.email.doctype.newsletter.newsletter.send_scheduled_email)
+2024-06-19 06:51:36,817 Result is kept for 600 seconds
+2024-06-19 06:51:36,832 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.google_calendar.google_calendar.sync)
+2024-06-19 06:51:37,998 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.google_calendar.google_calendar.sync)
+2024-06-19 06:51:37,998 Result is kept for 600 seconds
+2024-06-19 06:51:38,013 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.desk.form.document_follow.send_hourly_updates)
+2024-06-19 06:51:38,809 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.desk.form.document_follow.send_hourly_updates)
+2024-06-19 06:51:38,809 Result is kept for 600 seconds
+2024-06-19 06:51:38,831 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.desk.page.backups.backups.delete_downloadable_backups)
+2024-06-19 06:51:39,544 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.desk.page.backups.backups.delete_downloadable_backups)
+2024-06-19 06:51:39,544 Result is kept for 600 seconds
+2024-06-19 06:51:39,555 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.model.utils.user_settings.sync_user_settings)
+2024-06-19 06:51:40,342 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.model.utils.user_settings.sync_user_settings)
+2024-06-19 06:51:40,342 Result is kept for 600 seconds
+2024-06-19 06:51:40,356 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.model.utils.link_count.update_link_count)
+2024-06-19 06:51:41,186 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.model.utils.link_count.update_link_count)
+2024-06-19 06:51:41,187 Result is kept for 600 seconds
+2024-06-19 06:51:41,200 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.automation.doctype.reminder.reminder.send_reminders)
+2024-06-19 06:51:41,887 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.automation.doctype.reminder.reminder.send_reminders)
+2024-06-19 06:51:41,888 Result is kept for 600 seconds
+2024-06-19 06:51:41,900 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.monitor.flush)
+2024-06-19 06:51:42,628 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.monitor.flush)
+2024-06-19 06:51:42,630 Result is kept for 600 seconds
+2024-06-19 06:51:42,649 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.email.queue.flush)
+2024-06-19 06:51:43,560 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.email.queue.flush)
+2024-06-19 06:51:43,560 Result is kept for 600 seconds
+2024-06-19 06:51:43,573 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.log_settings.log_settings.run_log_clean_u..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.core.doctype.log_settings.log_settings.run_log_clean_up)
+2024-06-19 06:51:45,038 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.core.doctype.log_settings.log_settings.run_log_clean_up)
+2024-06-19 06:51:45,039 Result is kept for 600 seconds
+2024-06-19 06:51:45,054 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report)
+2024-06-19 06:51:45,805 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.core.doctype.prepared_report.prepared_report.expire_stalled_report)
+2024-06-19 06:51:45,805 Result is kept for 600 seconds
+2024-06-19 06:51:45,823 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.email.doctype.email_account.email_account.pull)
+2024-06-19 06:51:46,722 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.email.doctype.email_account.email_account.pull)
+2024-06-19 06:51:46,722 Result is kept for 600 seconds
+2024-06-19 06:51:46,733 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.deferred_insert.save_to_db)
+2024-06-19 06:51:49,070 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.deferred_insert.save_to_db)
+2024-06-19 06:51:49,070 Result is kept for 600 seconds
+2024-06-19 06:51:49,084 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.utils.global_search.sync_global_search)
+2024-06-19 06:51:49,971 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.utils.global_search.sync_global_search)
+2024-06-19 06:51:49,971 Result is kept for 600 seconds
+2024-06-19 06:51:49,983 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.email.doctype.email_account.email_account.notify_unreplied)
+2024-06-19 06:51:50,847 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.email.doctype.email_account.email_account.notify_unreplied)
+2024-06-19 06:51:50,847 Result is kept for 600 seconds
+2024-06-19 06:51:50,860 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.twofactor.delete_all_barcodes_for_users)
+2024-06-19 06:51:51,716 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.twofactor.delete_all_barcodes_for_users)
+2024-06-19 06:51:51,717 Result is kept for 600 seconds
+2024-06-19 06:51:51,730 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.website.doctype.web_page.web_page.check_publish_status)
+2024-06-19 06:51:52,825 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.website.doctype.web_page.web_page.check_publish_status)
+2024-06-19 06:51:52,826 Result is kept for 600 seconds
+2024-06-19 06:51:52,840 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.oauth.delete_oauth2_data)
+2024-06-19 06:51:53,698 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::scheduled_job::frappe.oauth.delete_oauth2_data)
+2024-06-19 06:51:53,699 Result is kept for 600 seconds
+2024-06-19 06:51:53,716 home-ubuntu-thenb-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', kwargs={'data': []}, method='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::8840a114-7cc0-4c0b-8b1b-311e19a1c32c)
+2024-06-19 06:51:54,444 home-ubuntu-thenb-bench:default: Job OK (shivam.nbnext.in::8840a114-7cc0-4c0b-8b1b-311e19a1c32c)
+2024-06-19 06:51:54,444 Result is kept for 600 seconds
+2024-06-19 06:51:54,456 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.repost_item_valuation.repost_item_valua..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries)
+2024-06-19 06:51:55,323 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries)
+2024-06-19 06:51:55,324 Result is kept for 600 seconds
+2024-06-19 06:51:55,340 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.assets.doctype.asset.depreciation.post_depreciation_e..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.assets.doctype.asset.depreciation.post_depreciation_entries)
+2024-06-19 06:51:56,264 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.assets.doctype.asset.depreciation.post_depreciation_entries)
+2024-06-19 06:51:56,265 Result is kept for 600 seconds
+2024-06-19 06:51:56,277 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.utils.open_leads_opportunities_based_on_todays_ev..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.crm.utils.open_leads_opportunities_based_on_todays_event)
+2024-06-19 06:51:57,135 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.crm.utils.open_leads_opportunities_based_on_todays_event)
+2024-06-19 06:51:57,135 Result is kept for 600 seconds
+2024-06-19 06:51:57,147 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms)
+2024-06-19 06:51:58,047 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool.auto_update_latest_price_in_all_boms)
+2024-06-19 06:51:58,047 Result is kept for 600 seconds
+2024-06-19 06:51:58,059 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.setup.doctype.email_digest.email_digest.send'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.setup.doctype.email_digest.email_digest.send)
+2024-06-19 06:51:58,858 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.setup.doctype.email_digest.email_digest.send)
+2024-06-19 06:51:58,858 Result is kept for 600 seconds
+2024-06-19 06:51:58,871 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_subscription.process_subscri..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.process_subscription.process_subscription.create_subscription_process)
+2024-06-19 06:51:59,883 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::erpnext.accounts.doctype.process_subscription.process_subscription.create_subscription_process)
+2024-06-19 06:51:59,883 Result is kept for 600 seconds
+2024-06-19 06:51:59,895 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_drive.google_drive.daily_b..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.google_drive.google_drive.daily_backup)
+2024-06-19 06:52:01,294 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.google_drive.google_drive.daily_backup)
+2024-06-19 06:52:01,294 Result is kept for 600 seconds
+2024-06-19 06:52:01,310 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.auto_email_report.auto_email_report.send..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.email.doctype.auto_email_report.auto_email_report.send_daily)
+2024-06-19 06:52:02,503 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::frappe.email.doctype.auto_email_report.auto_email_report.send_daily)
+2024-06-19 06:52:02,503 Result is kept for 600 seconds
+2024-06-19 06:52:02,515 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.s3_backup_settings.s3_backup_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily)
+2024-06-19 06:52:03,549 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.s3_backup_settings.s3_backup_settings.take_backups_daily)
+2024-06-19 06:52:03,550 Result is kept for 600 seconds
+2024-06-19 06:52:03,562 home-ubuntu-thenb-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.dropbox_settings.dropbox_settings..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='shivam.nbnext.in', user='Administrator') (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily)
+2024-06-19 06:52:04,778 home-ubuntu-thenb-bench:long: Job OK (shivam.nbnext.in::scheduled_job::frappe.integrations.doctype.dropbox_settings.dropbox_settings.take_backups_daily)
+2024-06-19 06:52:04,778 Result is kept for 600 seconds
+2024-06-19 07:05:34,818 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 07:05:34,821 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 07:05:34,822 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 07:32:35,007 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 07:32:35,010 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 07:32:35,011 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 07:59:35,264 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 07:59:35,266 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 07:59:35,267 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 08:26:35,575 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 08:26:35,577 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 08:26:35,579 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 08:53:35,841 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 08:53:35,842 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 08:53:35,844 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 09:20:36,036 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 09:20:36,038 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 09:20:36,039 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 09:47:36,170 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 09:47:36,172 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 09:47:36,174 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 10:14:36,500 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 10:14:36,502 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 10:14:36,504 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 10:41:36,751 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 10:41:36,754 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 10:41:36,762 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 11:08:37,075 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 11:08:37,077 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 11:08:37,078 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 11:35:37,296 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 11:35:37,305 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 11:35:37,306 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 12:02:37,536 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 12:02:37,538 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 12:02:37,540 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 12:29:37,737 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 12:29:37,740 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 12:29:37,744 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 12:56:37,935 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 12:56:37,938 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 12:56:37,939 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 13:23:38,081 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 13:23:38,083 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 13:23:38,084 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 13:50:38,334 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 13:50:38,336 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 13:50:38,338 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 14:17:38,541 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 14:17:38,543 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 14:17:38,545 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 14:44:38,743 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 14:44:38,745 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 14:44:38,747 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 15:11:39,003 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 15:11:39,004 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 15:11:39,006 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 15:38:39,214 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 15:38:39,217 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 15:38:39,219 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 16:05:39,432 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 16:05:39,433 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 16:05:39,435 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 16:32:39,739 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 16:32:39,741 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 16:32:39,743 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 16:59:39,872 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 16:59:39,875 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 16:59:39,877 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 17:26:39,997 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 17:26:39,999 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 17:26:40,001 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 17:53:40,245 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 17:53:40,247 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 17:53:40,248 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 18:20:40,415 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 18:20:40,417 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 18:20:40,421 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 18:47:40,673 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 18:47:40,676 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 18:47:40,677 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 19:14:40,887 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 19:14:40,889 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 19:14:40,890 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 19:41:41,048 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 19:41:41,050 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 19:41:41,052 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 20:08:41,197 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 20:08:41,199 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 20:08:41,200 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 20:35:41,385 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 20:35:41,387 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 20:35:41,388 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 21:02:41,483 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 21:02:41,485 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 21:02:41,486 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 21:29:41,716 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 21:29:41,720 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 21:29:41,722 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 21:56:41,901 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 21:56:41,903 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 21:56:41,904 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 22:23:42,164 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 22:23:42,166 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 22:23:42,167 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 22:50:42,409 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 22:50:42,411 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 22:50:42,417 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 23:17:42,605 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 23:17:42,607 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 23:17:42,608 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-19 23:44:42,812 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-19 23:44:42,814 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-19 23:44:42,815 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 00:11:42,978 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 00:11:42,980 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 00:11:42,981 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 00:38:43,239 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 00:38:43,241 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 00:38:43,243 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 01:05:43,529 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 01:05:43,533 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 01:05:43,534 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 01:32:43,807 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 01:32:43,809 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 01:32:43,811 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 01:59:43,957 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 01:59:43,958 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 01:59:43,960 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 02:26:44,200 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 02:26:44,202 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 02:26:44,204 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 02:53:44,420 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 02:53:44,421 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 02:53:44,423 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 03:20:44,490 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 03:20:44,492 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 03:20:44,497 Cleaning registries for queue: home-ubuntu-thenb-bench:long
+2024-06-20 03:47:44,645 Cleaning registries for queue: home-ubuntu-thenb-bench:short
+2024-06-20 03:47:44,664 Cleaning registries for queue: home-ubuntu-thenb-bench:default
+2024-06-20 03:47:44,667 Cleaning registries for queue: home-ubuntu-thenb-bench:long
