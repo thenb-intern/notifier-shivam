@@ -21,12 +21,12 @@
   {
    "fieldname": "number",
    "fieldtype": "Int",
-   "label": "Number"
+   "label": "Numbers"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-20 13:11:38.140421",
+ "modified": "2024-06-20 13:38:41.139846",
  "modified_by": "Administrator",
  "module": "Sms Applications",
  "name": "Max_Stock_Level",
