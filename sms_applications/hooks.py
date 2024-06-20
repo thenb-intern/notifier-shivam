@@ -227,3 +227,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# doc_events = {
+#     "Vendor": {
+#          "validate": "sms_applications.sms_applications.doctype.vendor.update_item_prices.update_item_prices"
+#     }
+# }
