@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"eJ1b3w95Vj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SMS applications</span>\",\"col\":12}},{\"id\":\"DsT2xIH7Tn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vendor\",\"col\":3}},{\"id\":\"YMsNpgXEtt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Calendar View\",\"col\":3}},{\"id\":\"j61UoKU4Ic\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Events\",\"col\":3}},{\"id\":\"yhlK1IPbly\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dealer\",\"col\":3}}]",
+ "content": "[{\"id\":\"eJ1b3w95Vj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SMS applications</span>\",\"col\":12}},{\"id\":\"ZMHNdviTwz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Max Stock Level\",\"col\":3}},{\"id\":\"GEIYZWWB1W\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Event Details\",\"col\":3}},{\"id\":\"DsT2xIH7Tn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vendor\",\"col\":3}},{\"id\":\"YMsNpgXEtt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Calendar View\",\"col\":3}},{\"id\":\"j61UoKU4Ic\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Events\",\"col\":3}},{\"id\":\"yhlK1IPbly\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dealer\",\"col\":3}}]",
  "creation": "2024-06-14 11:49:06.472873",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "SMS applications",
  "links": [],
- "modified": "2024-06-19 15:52:21.946003",
+ "modified": "2024-06-20 13:11:14.586587",
  "modified_by": "Administrator",
  "module": "Sms Applications",
  "name": "SMS applications",
@@ -24,6 +24,22 @@
  "roles": [],
  "sequence_id": 2.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Event Details",
+   "link_to": "event_details",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Max Stock Level",
+   "link_to": "Max_Stock_Level",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "List",

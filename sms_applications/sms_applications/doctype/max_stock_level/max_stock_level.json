@@ -1,43 +1,36 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-06-19 15:13:17.184428",
+ "autoname": "hash",
+ "creation": "2024-06-20 13:04:46.720710",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "event_name",
-  "location",
-  "participants"
+  "item",
+  "number"
  ],
  "fields": [
   {
-   "fieldname": "event_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Event Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "location",
+   "fieldname": "item",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Location",
-   "options": "Locations",
+   "label": "Item",
+   "options": "Item",
    "reqd": 1
   },
   {
-   "fieldname": "participants",
-   "fieldtype": "Table",
-   "label": "Participants",
-   "options": "Event_table"
+   "fieldname": "number",
+   "fieldtype": "Int",
+   "label": "Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-20 11:36:39.927682",
+ "modified": "2024-06-20 13:11:38.140421",
  "modified_by": "Administrator",
  "module": "Sms Applications",
- "name": "event_details",
+ "name": "Max_Stock_Level",
+ "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [
   {
