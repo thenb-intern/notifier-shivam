@@ -62,36 +62,37 @@ def send_email(docname):
     
 # events.py
 
-@frappe.whitelist()
-def create_event_participant(event_name, participant_name, participant_email, participant_phone):
-    try:
-        # Create a new participant document and link it to the event
-        participant = frappe.new_doc('Participants')
-        participant.update({
-            'participant_name': participant_name,
-            'participant_email': participant_email,
-            'participant_phone': participant_phone,
-            'event': event_name
-        })
-        participant.insert(ignore_permissions=True)
-        frappe.db.commit()
-        return 'success'
-    except Exception as e:
-        frappe.log_error(f"Error creating participant for event {event_name}: {str(e)}")
-        return 'failed'
+# @frappe.whitelist()
+# def create_event_participant(event_name, participant_name, participant_email, participant_phone):
+#     try:
+#         # Create a new participant document and link it to the event
+#         participant = frappe.new_doc('Participants')
+#         participant.update({
+#             'participant_name': participant_name,
+#             'participant_email': participant_email,
+#             'participant_phone': participant_phone,
+#             'event': event_name
+#         })
+#         participant.insert(ignore_permissions=True)
+#         frappe.db.commit()
+#         return 'success'
+#     except Exception as e:
+#         frappe.log_error(f"Error creating participant for event {event_name}: {str(e)}")
+#         return 'failed'
 
-@frappe.whitelist()
-def get_event_participants(event_name):
-    participants = frappe.get_all('Participants', filters={'event': event_name},
-                                  fields=['participant_name', 'participant_email', 'participant_phone'])
-    return participants
-@frappe.whitelist()
-def add_participant_to_event_table(docname, participant_name, participant_email, participant_phone):
-    event_doc = frappe.get_doc('Events', docname)
-    event_doc.append('participants', {
-        'participants_name': participant_name,
-        'email': participant_email,
-        'phone_number': participant_phone
-    })
-    event_doc.save(ignore_permissions=True)
-    return 'success'
+# @frappe.whitelist()
+# def get_event_participants(event_name):
+#     participants = frappe.get_all('Participants', filters={'event': event_name},
+#                                   fields=['participant_name', 'participant_email', 'participant_phone'])
+#     return participants
+# @frappe.whitelist()
+# def add_participant_to_event_table(docname, participant_name, participant_email, participant_phone):
+#     event_doc = frappe.get_doc('Events', docname)
+#     event_doc.append('participants', {
+#         'participants_name': participant_name,
+#         'email': participant_email,
+#         'phone_number': participant_phone
+#     })
+#     event_doc.save(ignore_permissions=True)
+#     return 'success'
+

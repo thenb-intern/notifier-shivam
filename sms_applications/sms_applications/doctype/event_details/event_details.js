@@ -66,6 +66,7 @@
 // });
 frappe.ui.form.on('event_details', {
     refresh: function(frm) {
+        console.log(frm)
         // Add a custom button 'Add Participant' to add participant to Event_table
         frm.add_custom_button(__('Add Participant'), function() {
             frappe.prompt([

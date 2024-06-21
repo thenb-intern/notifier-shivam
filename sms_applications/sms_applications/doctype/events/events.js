@@ -132,16 +132,36 @@ function addParticipantToEventTable(frm, participant_name, participant_email, pa
 
 // Function to show participants from the 'participants' table field
 function showParticipants(frm) {
-    if (frm.doc.participants && frm.doc.participants.length > 0) {
-        var participants_html = '<h4>Participants:</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Email</th><th>Phone</th></tr></thead><tbody>';
+    var event_name = frm.doc.event_name; // Assuming frm is defined elsewhere in your script
+    console.log(event_name);
+    if (event_name) {
+        frappe.call({
+            method: `frappe.desk.form.load.getdoc?doctype=event_details&name=${event_name}`,
+            // args: {
+            //     doctype: 'event_details',
+            //     // filters: {
+            //     //     'event_name': event_name
+            //     // },
+            //     // fields: ['participants']
+            // },
+            callback: function(response) {
+               
+                const participant=response.docs[0].participants;
+                if (participant && participant.length > 0) {
+                    var participants_html = '<h4>Participants:</h4><table class="table table-bordered"><thead><tr><th>Name</th><th>Email</th><th>Phone</th></tr></thead><tbody>';
 
-        frm.doc.participants.forEach(function(participant) {
-            participants_html += '<tr><td>' + participant.participants_name + '</td><td>' + participant.email + '</td><td>' + participant.phone_number + '</td></tr>';
+                    participant.forEach(function(participant) {
+                        participants_html += '<tr><td>' + participant.participants_name + '</td><td>' + participant.email + '</td><td>' + participant.phone_number + '</td></tr>';
+                    });
+
+                    participants_html += '</tbody></table>';
+                    frappe.msgprint(participants_html, 'Event Participants');
+                } else {
+                    frappe.msgprint('No participants found for this event.');
+                }
+            }
         });
-
-        participants_html += '</tbody></table>';
-        frappe.msgprint(participants_html, 'Event Participants');
     } else {
-        frappe.msgprint('No participants found for this event.');
+        frappe.msgprint('Event name is not specified.');
     }
 }
