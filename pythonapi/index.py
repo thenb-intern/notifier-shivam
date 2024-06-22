@@ -1,16 +1,16 @@
 import requests
 
-# API endpoint (adjust as necessary)
+# API endpoint 
 api_endpoint = "http://shivam.nbnext.in:8000/api/method/sms_applications.api.get_dummyapi_data"
 
-# API key and secret (adjust as necessary)
+# API key and secret 
 api_key = "193239ff4b8ef83"
 api_secret = "1b743dfc02794b0"
 
-# Construct headers with Basic Authentication
+
 auth = requests.auth.HTTPBasicAuth(api_key, api_secret)
 
-# Make the API request with basic authentication
+
 response = requests.get(api_endpoint, auth=auth)
 
 # Check the response
