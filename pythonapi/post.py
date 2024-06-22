@@ -1,19 +1,19 @@
 import requests
 
-# API endpoint (adjust as necessary)
+# API endpoint 
 api_endpoint = "http://shivam.nbnext.in:8000/api/method/sms_applications.api.add_dummyapi_data"
 
-# API key and secret (adjust as necessary)
+# API key and secret
 api_key = "193239ff4b8ef83"
 api_secret = "1b743dfc02794b0"
 # Data to be sent
 data = {
     "names": "John Doe",
-    "email": "johndoe@example.com",
+    "email": "johndoe@gmail.com",
     "age": 30
 }
 
-# Headers for token-based authentication
+
 headers = {
     'Authorization': f'token {api_key}:{api_secret}',
     'Content-Type': 'application/json'
