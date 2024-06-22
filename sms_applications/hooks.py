@@ -232,3 +232,8 @@ app_license = "mit"
 #          "validate": "sms_applications.sms_applications.doctype.vendor.update_item_prices.update_item_prices"
 #     }
 # }
+
+# sms_applications/hooks.py
+override_whitelisted_methods = {
+    "sms_applications.api.get_dummyapi_data": "sms_applications.api.get_dummyapi_data"
+}
