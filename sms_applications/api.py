@@ -59,4 +59,5 @@ def mark_attendance(employee_id, date=None):
     attendance.status = "Present"
     attendance.save()
     attendance.submit()
+
     return f"Attendance marked for {employee.employee_name} on {date}"
