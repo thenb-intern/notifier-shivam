@@ -1,6 +1,7 @@
 # sms_applications/sms_applications/api.py
 import frappe
 from frappe import _
+from frappe.utils import nowdate
 
 @frappe.whitelist()
 def get_dummyapi_data():
@@ -36,3 +37,26 @@ def add_dummyapi_data():
     except Exception as e:
         frappe.log_error(f"Error adding dummyapi data: {e}", _("API Error"))
         frappe.throw(_("Failed to add dummyapi data"))
+
+
+@frappe.whitelist()
+def get_employee_data():
+    data = frappe.get_all('Employee', fields=['*'])
+    return data
+
+@frappe.whitelist()
+def mark_attendance(employee_id, date=None):
+    if not date:
+        date = nowdate()
+    
+    employee = frappe.get_doc("Employee", employee_id)
+    if not employee:
+        return "Employee not found"
+    
+    attendance = frappe.new_doc("Attendance")
+    attendance.employee = employee_id
+    attendance.attendance_date = date
+    attendance.status = "Present"
+    attendance.save()
+    attendance.submit()
+    return f"Attendance marked for {employee.employee_name} on {date}"
