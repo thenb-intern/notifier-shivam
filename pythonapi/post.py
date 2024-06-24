@@ -1,9 +1,9 @@
 import requests
 
-# API endpoint (adjust as necessary)
+# API endpoint
 api_endpoint = "http://shivam.nbnext.in:8000/api/method/sms_applications.api.add_dummyapi_data"
 
-# API key and secret (adjust as necessary)
+# API key and secret 
 api_key = "193239ff4b8ef83"
 api_secret = "1b743dfc02794b0"
 # Data to be sent
